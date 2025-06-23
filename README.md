@@ -119,6 +119,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | SICdb             | V1.0.8 | salzburg-intensive-care-database-sicdb-a-freely-accessible-intensive-care-database-1.0.8 |
   | INSPIRE           | V1.2   | inspire-a-publicly-available-research-dataset-for-perioperative-medicine-1.2 |
   | HiRID             | V1.1.1 | hirid-a-high-time-resolution-icu-dataset-1.1.1 |
+  | Northwestern ICU  | V0.1.0 | northwestern-icu-nwicu-database-0.1.0 |
   
   **注**：MIMIC-IV-ED和MIMIC-IV-Note分别安装至MIMIC-IV的ED、Note模块，目前只支持安装至MIMIC-IV-2.2版本下。
 
@@ -158,6 +159,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | SICdb             | V1.0.8 | 303 GB      |              |              |
   | INSPIRE           | V1.2   | 13 GB       |              |              |
   | HiRID             | V1.1.1 | 解压75 GB，安装118 GB |              |              |
+  | Northwestern ICU  | V0.1.0 | 15 GB |  | 3 GB |
   
   **注**：①MIMIC-IV-ED和MIMIC-IV-Note分别安装至MIMIC-IV的ED、Note模块，目前只支持安装至MIMIC-IV-2.2版本下；②HiRID先判断解压空间是否充足（至少75 GB），充足则解压，然后再判断PG所设置的data所在磁盘空间（安装PG时设定，默认是PG所在盘）是否充足（至少118 GB）。
 
@@ -184,6 +186,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | sicdb_v108              | SICdb             | V1.0.8 | 2 h 40 min       |              |              |
   | inspire                 | INSPIRE           | V1.2   | 4 min            |              |              |
   | hirid                   | HiRID             | V1.1.1 | 2 h 20 min       |              |              |
+  | nwicu                   | Northwestern ICU | V0.1.0 | 4 min  |              | 5 min |
   
   **注**：MIMIC-IV-ED和MIMIC-IV-Note分别安装至MIMIC-IV的ED、Note模块，目前只支持安装至MIMIC-IV-2.2版本下，故在R和DBeaver中连接上述两个模块只需连接MIMIC-IV数据集即可。
 ## 6 各系统运行截图
