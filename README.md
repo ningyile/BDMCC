@@ -118,6 +118,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | SICdb             | V1.0.6 | salzburg-intensive-care-database-sicdb-a-freely-accessible-intensive-care-database-1.0.6 |
   | SICdb             | V1.0.8 | salzburg-intensive-care-database-sicdb-a-freely-accessible-intensive-care-database-1.0.8 |
   | INSPIRE           | V1.2   | inspire-a-publicly-available-research-dataset-for-perioperative-medicine-1.2 |
+  | INSPIRE           | V1.4.2   | inspire-a-publicly-available-research-dataset-for-perioperative-medicine-1.4.2 |
   | HiRID             | V1.1.1 | hirid-a-high-time-resolution-icu-dataset-1.1.1 |
   | Northwestern ICU  | V0.1.0 | northwestern-icu-nwicu-database-0.1.0 |
   
@@ -158,6 +159,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | SICdb             | V1.0.6 | 247 GB      |              |              |
   | SICdb             | V1.0.8 | 303 GB      |              |              |
   | INSPIRE           | V1.2   | 13 GB       |              |              |
+  | INSPIRE           | V1.4.2   | 14 GB       |              |              |
   | HiRID             | V1.1.1 | 解压75 GB，安装118 GB |              |              |
   | Northwestern ICU  | V0.1.0 | 15 GB |  | 3 GB |
   
@@ -185,6 +187,7 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   | sicdb_v106              | SICdb             | V1.0.6 | 2 h 35 min       |              |              |
   | sicdb_v108              | SICdb             | V1.0.8 | 2 h 40 min       |              |              |
   | inspire                 | INSPIRE           | V1.2   | 4 min            |              |              |
+  | inspire_v142           | INSPIRE           | V1.4.2   | 4 min            |              |              |
   | hirid                   | HiRID             | V1.1.1 | 2 h 20 min       |              |              |
   | nwicu                   | Northwestern ICU | V0.1.0 | 4 min  |              | 5 min |
   
