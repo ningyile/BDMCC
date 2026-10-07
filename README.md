@@ -1,6 +1,6 @@
 # 重症大数据大师（Big Data Master of Critical Care，BDMCC）
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_logo.png" width="20%" height="20%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_logo.png" width="20%" height="20%" />
 </p>
 
 ## 1 为什么选择BDMCC
@@ -13,19 +13,19 @@
 - 软件覆盖支持Windows、macOS、Linux三种操作系统，实现在任何平台下，以最快、最方便的方式完成对目标数据集的一键安装及后续的一键升级管理。
 - **本软件仅提供一键安装功能，不提供任何数据集的下载！安装所需的数据集请自行前往官网进行申请，请遵守数据使用协议，维护良好学术道德风尚。**
 - 本软件在**重症医学**、**小明学习室**、**重症超声教学资源**(以上排名不分先后)公众号同步发布。
-- 所有软件均无病毒无后门！请于[本软件唯一官网](https://github.com/ningyile/BDMCC_APP/releases)放心下载安装使用。
+- 所有软件均无病毒无后门！请于[本软件唯一官网](https://github.com/ningyile/BDMCC/releases)放心下载安装使用。
 
 ## 3 PostgreSQL是否正确安装、配置
 - 使用本软件前请确保PostgreSQL已经正确安装并配置相应的环境变量。
 ### 3.1 PostgreSQL环境变量的查询
 - Windows系统下查询：按【Windows徽标键】+【R】，并在【打开】框中键入“cmd”，然后输入"where psql"。如果cmd终端中出现`C:\Program Files\PostgreSQL\16\bin\psql.exe`等类似结果即表明该PostgreSQL已经安装配置完毕。
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/env_01.png" width="60%" height="60%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/env_01.png" width="60%" height="60%" />
 </p>
 
 - macOS与Linux系统下查询：打开终端，然后输入"which psql"。如果终端中出现`/usr/local/bin/psql`等类似结果即表明该PostgreSQL已经安装配置完毕。
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/env_02.png" width="60%" height="60%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/env_02.png" width="60%" height="60%" />
 </p>
 
 ### 3.2 PostgreSQL在三大系统下的安装及配置。
@@ -46,21 +46,21 @@
     - 单击选择菜单：接着打开【系统偏好设置】，选择【安全性与隐私】，选择【通用】，可以看到【任何来源】已经选定。
     
     <p align="center">
-      <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_01.png" width="60%" height="60%" />
+      <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_01.png" width="60%" height="60%" />
     </p>
     
     - 窗口底部允许从以下位置下载的App会看到：已阻止使用“BDMCC”，因为来自身份不明的开发者。点击后面的【仍要打开】按钮。
     
     <p align="center">
-      <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_02.png" width="60%" height="60%" />
+      <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_02.png" width="60%" height="60%" />
     </p>
     <p align="center">
-      <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_03.png" width="60%" height="60%" />
+      <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_03.png" width="60%" height="60%" />
     </p>
     
     - 在弹出的确认弹窗中，点击【打开】按钮即可。
     <p align="center">
-      <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_04.png" width="60%" height="60%" />
+      <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_04.png" width="60%" height="60%" />
     </p>
 
     - 如果发现还是显示“已损坏，无法打开。您应该将它移到废纸篓”。请单击【取消】。接下来在终端粘贴复制输入命令：
@@ -68,7 +68,7 @@
     sudo xattr -r -d com.apple.quarantine /Applications/BDMCC.app
     ```
     <p align="center">
-      <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_06.png" width="60%" height="60%" />
+      <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_06.png" width="60%" height="60%" />
     </p>
     
 - macOS Intel系列芯片请下载安装`BDMCC_1.0.1_x64.dmg`。理论上支持Big Sur以后的版本，目前仅在10代Intel芯片的Big Sur 11.6.1版本上进行了测试。
@@ -80,10 +80,10 @@
 ./bdmcc_dep
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/bdmcc_dep_01.png" width="60%" height="60%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/bdmcc_dep_01.png" width="60%" height="60%" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/bdmcc_dep_02.png" width="60%" height="60%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/bdmcc_dep_02.png" width="60%" height="60%" />
 </p>
 
 - 完成依赖库校验后，请下载`BDMCC_1.0.1_amd64.deb`安装包，于所在路径开启终端，然后在终端下键入以下命令(xxxxxx修改为相应的BDMCC的版本号)即可完成安装：
@@ -125,14 +125,14 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
   **注**：MIMIC-IV-ED和MIMIC-IV-Note分别安装至MIMIC-IV的ED、Note模块，目前只支持安装至MIMIC-IV-2.2版本下。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/dir_tree_01.png" width="100%" height="100%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/dir_tree_01.png" width="100%" height="100%" />
 </p>
 
 
 ### 5.3 数据文件的目录结构
 - 各个文件夹的目录树结构严格按照Physionet官网中原始数据文件的目录结构。如下图，以**MIMIC-IV V2.0为例 **，[官网](https://www.physionet.org/content/mimiciv/2.0/#files-panel)和下载的本地数据文件树目录结构需要完全保持一致。此外，在安装前BDMCC软件还会对原始的数据文件进行校验，以确定数据的准确性和唯一性。如文件校验未通过，则安装无法继续进行。
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/dir_tree_02.png" width="80%" height="80%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/dir_tree_02.png" width="80%" height="80%" />
 </p>
 
 ### 5.4 数据集安装的模块选择
@@ -196,17 +196,17 @@ sudo dpkg -i BDMCC_xxxxxx_amd64.deb
 
 - Windows下默认主题、中文语言
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/win_run_01.png" width="80%" height="80%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/win_run_01.png" width="80%" height="80%" />
 </p>
 
 - macOS下默认主题、中文语言
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/mac_run_01.png" width="80%" height="80%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/mac_run_01.png" width="80%" height="80%" />
 </p>
 
 - Linux系统默认主题、英文语言
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ningyile/BDMCC_APP/main/img/linux_run_01.png" width="80%" height="80%" />
+  <img src="https://raw.githubusercontent.com/ningyile/BDMCC/main/img/linux_run_01.png" width="80%" height="80%" />
 </p>
 
 ## 7 更新日志
